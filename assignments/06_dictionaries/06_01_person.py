@@ -9,3 +9,7 @@ person = {
     'age': '18',
     'City': 'Baltimore'}
 
+print(person['Mike'])
+print(person['Goodman'])
+print(person['18'])
+print(person['Baltimore'])
