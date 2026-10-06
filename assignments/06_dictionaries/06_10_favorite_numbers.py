@@ -2,15 +2,18 @@
 # 3 
 #3/10
 
-favorite_numbers = {'Mike': 3,
-'Jakeem': 7, 'Deslavo': 17,
-    'Kamya': 2,'Coby': 2,}
+favorite_numbers = {
+    'Mike': [7, 13],
+    'John': [12, 20],
+    'Sarah': [4, 8],
+    'Alex': [10, 25],
+    'Chris': [3, 21],
+}
 
 for name, numbers in favorite_numbers.items():
-    print(f"{name}'s favorite number is {numbers}.")
+    print(f"{name}'s favorite numbers are:")
 
-    for number in numbers: 
-        print(number) 
+    for number in numbers:
+        print(number)
 
-
-        print() 
+    print()

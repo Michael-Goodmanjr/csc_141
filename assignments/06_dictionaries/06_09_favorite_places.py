@@ -3,16 +3,15 @@
 # 4/10
 
 favorite_places = {
-    'Mike': ['Italy', 'Germany', 'France'],
-    'Jakeem': ['Japan', 'China', 'Thailand'],
-    'Deslavo': ['Mexico', 'Canada', 'Brazil'],
+    'Mike': ['New York', 'Florida'],
+    'Jakeem': ['California'],
+    'Deslavo': ['Paris', 'London', 'Tokyo'],
 }
 
-for name, places in favorite_places.items(): 
-    print(f"{name}'s favrite places are:")
+for name, places in favorite_places.items():
+    print(f"{name}'s favorite places are:")
 
     for place in places:
-        print(f"-{place}')") 
+        print(f"- {place}")
 
     print()
-    
