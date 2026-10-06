@@ -8,8 +8,8 @@ for river, country in rivers.items():
 
 print("\nrivers:")
 for river in rivers.keys():
-    print(river.titile())
+    print(river.title())
 
-    print("\nCountries:")
-    for country in rivers.values():
-        print(country.title())
+print("\nCountries:")
+for country in rivers.values():
+    print(country.title())
