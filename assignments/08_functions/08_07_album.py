@@ -13,9 +13,9 @@ def make_album(artist, title, songs=None):
 
     return album
 
-album1 = make_album('Drake', 'Views')
-album2 = make_album('Kendrick Lamar', 'DAMN.')
-album3 = make_album('Travis Scott', 'Astroworld', 17)
+album1 = make_album('Chase Altanic', 'Consume')
+album2 = make_album('Lil Baby', 'Freestyle.')
+album3 = make_album('Weekend', 'Hills have eyes', 17)
 
 print(album1)
 print(album2)

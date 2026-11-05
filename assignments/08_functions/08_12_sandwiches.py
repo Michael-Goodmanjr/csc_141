@@ -10,6 +10,6 @@ def make_sandwich(*items):
 
 make_sandwich('turkey', 'cheese')
 
-make_sandwich('ham', 'lettuce', 'tomato')
+make_sandwich('Honey Turkey', 'lettuce', 'tomato')
 
 make_sandwich('chicken', 'bacon', 'cheese', 'mustard')

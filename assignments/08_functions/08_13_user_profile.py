@@ -9,11 +9,11 @@ def build_profile(first, last, **user_info):
     return user_info
 
 my_profile = build_profile(
-    'Alex',
-    'Morgan',
+    'Mike',
+    'Goodman Jr',
     major='Game and Simulation',
-    favorite_game='Minecraft',
-    hobby='coding'
+    favorite_game='Rivals',
+    hobby='gaming'
 )
 
 print(my_profile)

@@ -8,4 +8,4 @@ def make_shirt(size, message):
 
 make_shirt('large', 'Game On')
 
-make_shirt(size='medium', message='Python is Fun')
+make_shirt(size='medium', message='Keneki is the goat')
